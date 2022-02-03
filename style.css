@@ -1,0 +1,65 @@
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header h1 {
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+
+li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  position: relative;
+  top: 1rem;
+  width: 22rem;
+}
+
+section {
+  margin: 0 1rem;
+}
+
+.showcase_img {
+  width: 95vw;
+}
+article {
+  display: flex;
+  margin: 1.5rem;
+}
+
+.container {
+  text-align: center;
+  margin-right: 2rem;
+  padding: 1rem;
+}
+p {
+  font-size: 1.5rem;
+}
+.foot {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 2rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
